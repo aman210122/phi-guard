@@ -1,62 +1,39 @@
+# Data (DO NOT commit MIMIC data — violates PhysioNet DUA)
+data/*.json
+data/*.csv
+data/*.csv.gz
+data/mimic-iv/
+data/mimic-iii/
+
+# Model checkpoints
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Outputs (figures, results — large files)
+outputs/
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
 *.egg-info/
 dist/
 build/
-.eggs/
-*.egg
 
-# Virtual environments
-venv/
-env/
+# Environment
 .env
-
-# Jupyter
-.ipynb_checkpoints/
+.venv/
+venv/
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Data — MIMIC requires credentialed access, never commit
-data/*.csv
-data/*.json
-data/*.parquet
-data/mimic*/
-data/synthea*/
-data/medqa*/
-
-# Model checkpoints
-models/
-*.pt
-*.pth
-*.bin
-*.safetensors
-
-# Results (regenerable)
-results/*.json
-results/*.csv
-
-# LaTeX build artifacts
-*.aux
-*.bbl
-*.blg
-*.log
-*.out
-*.toc
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-
-# API keys
-.env
-*.key
+# Jupyter
+.ipynb_checkpoints/
