@@ -1,0 +1,56 @@
+# PHI-GUARD Configuration
+# Referenced by all scripts via: ROOT / "configs/config.yaml"
+
+dataset:
+  output_dir: data
+  random_seed: 42
+
+classifier:
+  backbone: distilbert-base-uncased                # GPU default
+  backbone_fallback: distilbert-base-uncased        # CPU fallback
+  model_dir: models
+  max_length: 256
+  batch_size: 16
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  epochs: 4
+  early_stopping_patience: 3
+  multitask_alpha: 0.3          # NER/tier joint loss weight
+
+routing:
+  confidence_threshold: 0.70    # tau
+
+evaluation:
+  output_dir: outputs
+  monte_carlo_runs: 10
+
+platforms:
+  - name: Public_API
+    clearance: 0
+    cost: 0.0100
+    latency: 310
+    quality: 1.00
+  - name: Secure_Cloud
+    clearance: 2
+    cost: 0.0110
+    latency: 420
+    quality: 0.95
+  - name: On_Premises
+    clearance: 3
+    cost: 0.0254
+    latency: 1180
+    quality: 0.90
+
+# CARES parameters (used by scripts 19, 19b)
+cares:
+  lambda_param: 1.0
+  delta: 0.005
+  mu: 0.5
+  tau: 0.70
+
+# SafeTS parameters (used by scripts 05, 19b)
+safets:
+  epsilon: 0.02
+  tau: 0.70
+  dirichlet_prior: 1.0
+  exploration_noise: 0.01
