@@ -1,0 +1,84 @@
+{
+  "mode": "hybrid",
+  "n_queries": 500,
+  "n_cal": 2697,
+  "summary": {
+    "SafeTS (\u03b5=0.02)": {
+      "name": "SafeTS (\u03b5=0.02)",
+      "n": 500,
+      "total_cost": 0.9025,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "cloud_pct": 59.4,
+      "avg_latency_ms": 9337,
+      "p99_latency_ms": 26507,
+      "platform_counts": {
+        "OnPremises": 203,
+        "SecureCloud": 237,
+        "PublicAPI": 60
+      },
+      "real_queries": 263
+    },
+    "CARES (\u03b4=0.005)": {
+      "name": "CARES (\u03b4=0.005)",
+      "n": 500,
+      "total_cost": 0.9812,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "cloud_pct": 33.6,
+      "avg_latency_ms": 15810,
+      "p99_latency_ms": 27317,
+      "platform_counts": {
+        "OnPremises": 332,
+        "SecureCloud": 168
+      },
+      "real_queries": 332
+    },
+    "Threshold (\u03c4=0.80)": {
+      "name": "Threshold (\u03c4=0.80)",
+      "n": 500,
+      "total_cost": 0.8302,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "cloud_pct": 63.2,
+      "avg_latency_ms": 9832,
+      "p99_latency_ms": 27482,
+      "platform_counts": {
+        "OnPremises": 184,
+        "SecureCloud": 201,
+        "PublicAPI": 115
+      },
+      "real_queries": 299
+    },
+    "StaticILP": {
+      "name": "StaticILP",
+      "n": 500,
+      "total_cost": 0.8286,
+      "violations": 8,
+      "viol_pct": 1.6,
+      "cloud_pct": 66.4,
+      "avg_latency_ms": 9037,
+      "p99_latency_ms": 27619,
+      "platform_counts": {
+        "OnPremises": 168,
+        "SecureCloud": 217,
+        "PublicAPI": 115
+      },
+      "real_queries": 283
+    },
+    "SecureDefault": {
+      "name": "SecureDefault",
+      "n": 500,
+      "total_cost": 1.1927,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "cloud_pct": 0.0,
+      "avg_latency_ms": 21558,
+      "p99_latency_ms": 27972,
+      "platform_counts": {
+        "OnPremises": 500
+      },
+      "real_queries": 500
+    }
+  }
+}

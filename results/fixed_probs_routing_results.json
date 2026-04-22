@@ -1,0 +1,126 @@
+[
+  {
+    "name": "StaticILP",
+    "cost": 4.45,
+    "violations": 33,
+    "viol_pct": 2.39,
+    "routing": {
+      "SecureCloud": 609,
+      "PublicAPI": 321,
+      "OnPremises": 450
+    }
+  },
+  {
+    "name": "CompTS \u03b5=0.001",
+    "cost": 6.3299,
+    "violations": 0,
+    "viol_pct": 0.0,
+    "routing": {
+      "OnPremises": 1380
+    }
+  },
+  {
+    "name": "CompTS \u03b5=0.005",
+    "cost": 5.947,
+    "violations": 0,
+    "viol_pct": 0.0,
+    "routing": {
+      "OnPremises": 859,
+      "SecureCloud": 521
+    }
+  },
+  {
+    "name": "CompTS \u03b5=0.01",
+    "cost": 5.9187,
+    "violations": 0,
+    "viol_pct": 0.0,
+    "routing": {
+      "OnPremises": 839,
+      "SecureCloud": 541
+    }
+  },
+  {
+    "name": "CompTS \u03b5=0.02",
+    "cost": 4.5235,
+    "violations": 26,
+    "viol_pct": 1.88,
+    "routing": {
+      "SecureCloud": 606,
+      "PublicAPI": 299,
+      "OnPremises": 475
+    }
+  },
+  {
+    "name": "CompTS \u03b5=0.05",
+    "cost": 4.4604,
+    "violations": 32,
+    "viol_pct": 2.32,
+    "routing": {
+      "SecureCloud": 615,
+      "PublicAPI": 310,
+      "OnPremises": 455
+    }
+  },
+  {
+    "name": "CompTS \u03b5=0.1",
+    "cost": 4.4569,
+    "violations": 32,
+    "viol_pct": 2.32,
+    "routing": {
+      "SecureCloud": 612,
+      "PublicAPI": 315,
+      "OnPremises": 453
+    }
+  },
+  {
+    "name": "SecureDefault",
+    "cost": 6.3299,
+    "violations": 0,
+    "viol_pct": 0.0,
+    "routing": {
+      "OnPremises": 1380
+    }
+  },
+  {
+    "name": "Threshold-0.8",
+    "cost": 4.4565,
+    "violations": 32,
+    "viol_pct": 2.32,
+    "routing": {
+      "SecureCloud": 608,
+      "PublicAPI": 319,
+      "OnPremises": 453
+    }
+  },
+  {
+    "name": "Threshold-0.9",
+    "cost": 4.4627,
+    "violations": 32,
+    "viol_pct": 2.32,
+    "routing": {
+      "SecureCloud": 608,
+      "PublicAPI": 315,
+      "OnPremises": 457
+    }
+  },
+  {
+    "name": "Threshold-0.95",
+    "cost": 4.8876,
+    "violations": 8,
+    "viol_pct": 0.58,
+    "routing": {
+      "SecureCloud": 497,
+      "PublicAPI": 310,
+      "OnPremises": 573
+    }
+  },
+  {
+    "name": "Threshold-0.99",
+    "cost": 6.3299,
+    "violations": 0,
+    "viol_pct": 0.0,
+    "routing": {
+      "OnPremises": 1380
+    }
+  }
+]

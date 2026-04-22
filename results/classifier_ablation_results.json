@@ -1,0 +1,60 @@
+{
+  "n_classifiers": 3,
+  "all_zero_violations": true,
+  "ablation_results": [
+    {
+      "name": "DistilBERT-base",
+      "params": "66M",
+      "accuracy": 0.9840952063174285,
+      "t3_recall": 0.9736591558235481,
+      "routing": {
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 35.6,
+        "cost": 16.8031,
+        "q_hat": 20.085536923187668,
+        "bound": 0.005336,
+        "bound_holds": true,
+        "n_eval": 8991,
+        "n_cal": 2976,
+        "params": "lam=1.0 d=0.005 mu=0.5 tau=0.7"
+      }
+    },
+    {
+      "name": "TF-IDF + LR",
+      "params": "~50K",
+      "accuracy": 0.9698587476365255,
+      "t3_recall": 0.9174865122183434,
+      "routing": {
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 35.4,
+        "cost": 16.804,
+        "q_hat": 20.085536923187668,
+        "bound": 0.005336,
+        "bound_holds": true,
+        "n_eval": 8991,
+        "n_cal": 2976,
+        "params": "lam=1.0 d=0.005 mu=0.5 tau=0.8"
+      }
+    },
+    {
+      "name": "Regex + NER",
+      "params": "0 (rules)",
+      "accuracy": 0.5616727838950061,
+      "t3_recall": 0.6061567756267852,
+      "routing": {
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 31.9,
+        "cost": 16.8525,
+        "q_hat": 20.085536923187668,
+        "bound": 0.005336,
+        "bound_holds": true,
+        "n_eval": 8991,
+        "n_cal": 2976,
+        "params": "lam=1.0 d=0.005 mu=0.5 tau=0.7"
+      }
+    }
+  ]
+}

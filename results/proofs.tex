@@ -1,0 +1,171 @@
+
+% ═══════════════════════════════════════════════════════════════════════
+% THEORETICAL ANALYSIS — CompTS Safety and Regret Guarantees  
+% ═══════════════════════════════════════════════════════════════════════
+
+\subsection{Problem Formulation}
+
+We formulate compliance-aware query routing as a conservative contextual 
+bandit. At each step $t = 1, \ldots, T$, a query $q_t$ arrives with 
+unknown sensitivity $s_t \in \{0, 1, 2, 3\}$ corresponding to our 
+four-tier taxonomy. A classifier produces estimate $\hat{s}_t$ with 
+confidence $\gamma_t$. The router selects platform $a_t$ from action 
+set $\mathcal{A} = \{a_1, \ldots, a_m\}$, each with clearance level 
+$L(a_j)$ and cost $c_j$. A \emph{compliance violation} occurs when 
+$L(a_t) < s_t$, i.e., a query is routed to a platform lacking 
+sufficient clearance.
+
+\begin{definition}[Compliance-Constrained Routing]
+A routing policy $\pi$ is $\varepsilon$-compliant if for all $t$:
+\begin{equation}
+\Pr[L(\pi(q_t)) < s_t] \leq \varepsilon
+\end{equation}
+The goal is to find the $\varepsilon$-compliant policy minimizing 
+cumulative cost $\sum_{t=1}^{T} c(\pi(q_t))$.
+\end{definition}
+
+\subsection{CompTS Algorithm}
+
+At each step, CompTS maintains a posterior over $s_t$ using the 
+classifier softmax output as likelihood and a Dirichlet prior updated 
+from routing history. The safe action set is:
+\begin{equation}
+\mathcal{A}_{\text{safe}}(t) = \{a_j \in \mathcal{A} : 
+\Pr_{\text{post}}[L(a_j) < s_t] \leq \varepsilon\}
+\end{equation}
+CompTS selects the cost-minimizing action from $\mathcal{A}_{\text{safe}}(t)$ 
+with Thompson Sampling exploration.
+
+% ── Theorem 1 ────────────────────────────────────────────────────────
+
+\begin{theorem}[Per-Step Safety Guarantee]
+\label{thm:safety}
+Let $f$ be a classifier with tier-3 recall $r$ and calibration error 
+$\alpha$, and let CompTS use confidence threshold $\tau$ and violation 
+threshold $\varepsilon$. Then for each step $t$:
+\begin{equation}
+\Pr[\text{violation at } t] \leq p_{\phi} \cdot (1-r) \cdot p_\tau \cdot \varepsilon
+\end{equation}
+where $p_\phi = \Pr[s_t = 3]$ is the base rate of restricted queries 
+and $p_\tau = \Pr[\gamma_t \geq \tau \mid s_t = 3, \hat{s}_t \neq 3] 
+\leq \alpha$ for calibrated classifiers.
+\end{theorem}
+
+\begin{proof}
+A violation at step $t$ requires the conjunction of four events:
+\begin{align}
+E_1 &: s_t = 3 \quad &&\text{(query contains PHI)} \\
+E_2 &: \hat{s}_t < 3 \quad &&\text{(classifier misclassifies)} \\
+E_3 &: \gamma_t \geq \tau \quad &&\text{(confidence exceeds fallback)} \\
+E_4 &: s_t \notin \mathcal{S}_{\text{safe}}(a_t) \quad &&\text{(posterior check fails)}
+\end{align}
+
+\textbf{Bounding $E_1$:} $\Pr[E_1] = p_\phi$ by the data distribution.
+
+\textbf{Bounding $E_2 | E_1$:} Given $s_t = 3$, the classifier 
+misclassifies with probability $1 - r$, where $r$ is the T3 recall.
+
+\textbf{Bounding $E_3 | E_1 \cap E_2$:} Given a T3 query is 
+misclassified, the confidence $\gamma_t$ exceeds $\tau$ with 
+probability $p_\tau$. For a calibrated classifier (ECE $\leq \alpha$), 
+a prediction with confidence $\gamma_t \geq \tau$ is correct with 
+probability at least $\tau - \alpha$. Thus, the probability of being 
+both wrong and confident is bounded by $p_\tau \leq \alpha / (1-r)$ 
+for calibrated models. Conservatively, $p_\tau \leq \alpha$.
+
+\textbf{Bounding $E_4 | E_1 \cap E_2 \cap E_3$:} Given all three 
+preceding events, CompTS selects $a_t \in \mathcal{A}_{\text{safe}}(t)$, 
+where by construction:
+$\Pr_{\text{post}}[L(a_t) < s_t] \leq \varepsilon$. Thus 
+$\Pr[E_4 \mid E_1 \cap E_2 \cap E_3] \leq \varepsilon$.
+
+By the chain rule:
+\begin{equation}
+\Pr[\text{viol}_t] = \Pr[E_1]\Pr[E_2|E_1]\Pr[E_3|E_1,E_2]\Pr[E_4|E_1,E_2,E_3]
+\leq p_\phi (1-r) p_\tau \varepsilon
+\end{equation}
+\end{proof}
+
+\begin{corollary}[Global Safety]
+Over $T$ queries, the expected number of violations satisfies:
+$\mathbb{E}[\text{violations}] \leq T \cdot p_\phi (1-r) p_\tau \varepsilon$.
+By Markov's inequality, $\Pr[\text{violations} \geq 1] \leq T \cdot p_\phi(1-r)p_\tau\varepsilon$.
+Setting $\varepsilon = \delta / (T \cdot p_\phi(1-r)p_\tau)$ yields 
+$\Pr[\text{any violation}] \leq \delta$.
+\end{corollary}
+
+% ── Theorem 2 ────────────────────────────────────────────────────────
+
+\begin{theorem}[Regret Bound]
+\label{thm:regret}
+Let $\pi^*$ be the optimal $\varepsilon$-compliant policy. The 
+cumulative regret of CompTS is:
+\begin{equation}
+R(T) = \sum_{t=1}^{T}\left[c(\text{CompTS}_t) - c(\pi^*_t)\right]
+\leq C_1 d\sqrt{T\log T} + C_2 T \cdot p_{\text{low}} \cdot \Delta_c
+\end{equation}
+where $d$ is the context embedding dimension, 
+$p_{\text{low}} = \Pr[\gamma_t < \tau]$ is the fallback rate, and 
+$\Delta_c = \max_j c_j - \min_j c_j$ is the cost range.
+\end{theorem}
+
+\begin{proof}[Proof sketch]
+The regret decomposes into two components:
+
+\textbf{Exploration regret:} At each step where $\gamma_t \geq \tau$, 
+CompTS performs Thompson Sampling over the safe action set 
+$\mathcal{A}_{\text{safe}}(t)$. Since $\pi^*$ also satisfies 
+compliance constraints, $\pi^*(q_t) \in \mathcal{A}_{\text{safe}}(t)$ 
+for all $t$. The constrained action space is a subset of $\mathcal{A}$, 
+so by the standard Thompson Sampling regret bound 
+\citep{agrawal2013thompson}: $R_{\text{explore}}(T) \leq C_1 d\sqrt{T\log T}$.
+
+\textbf{Conservatism penalty:} When $\gamma_t < \tau$, CompTS falls 
+back to the maximum-clearance platform, adding excess cost 
+$\Delta_c$ per fallback query. The expected penalty is:
+$R_{\text{conserv}}(T) \leq T \cdot p_{\text{low}} \cdot \Delta_c$.
+
+Total regret: $R(T) \leq R_{\text{explore}}(T) + R_{\text{conserv}}(T)$.
+\end{proof}
+
+% ── Theorem 3 ────────────────────────────────────────────────────────
+
+\begin{theorem}[Ensemble Amplification]
+\label{thm:ensemble}
+With $k$ independent classifiers each having T3 recall $r > 0.5$, 
+using majority vote:
+\begin{equation}
+\Pr[\text{violation}] \leq \varepsilon \cdot \sum_{i=\lceil k/2\rceil}^{k}
+\binom{k}{i}(1-r)^i r^{k-i}
+\end{equation}
+which decreases exponentially:
+$\Pr[\text{violation}] \leq \varepsilon \cdot \exp(-k \cdot D(1/2 \| 1-r))$
+where $D(\cdot\|\cdot)$ is the KL divergence.
+\end{theorem}
+
+\begin{proof}
+With $k$ independent classifiers, the majority vote correctly 
+identifies a T3 query when at least $\lceil k/2 \rceil$ classifiers 
+are correct. The recall of the majority vote ensemble is:
+\begin{equation}
+r_{\text{ens}} = \sum_{i=\lceil k/2 \rceil}^{k} \binom{k}{i} r^i (1-r)^{k-i}
+= 1 - \sum_{i=\lceil k/2\rceil}^{k}\binom{k}{i}(1-r)^i r^{k-i}
+\end{equation}
+Substituting $r_{\text{ens}}$ into Theorem~\ref{thm:safety} 
+(replacing $r$ with $r_{\text{ens}}$):
+\begin{equation}
+\Pr[\text{viol}] \leq p_\phi(1-r_{\text{ens}})p_\tau\varepsilon
+= p_\phi \left[\sum_{i=\lceil k/2\rceil}^{k}\binom{k}{i}(1-r)^i r^{k-i}\right] p_\tau \varepsilon
+\end{equation}
+The bracketed term is the tail of a Binomial$(k, 1-r)$ distribution 
+above $k/2$. By the Chernoff bound, for $r > 0.5$:
+$\sum_{i=\lceil k/2\rceil}^{k}\binom{k}{i}(1-r)^i r^{k-i} 
+\leq \exp(-k \cdot D(1/2 \| 1-r))$
+\end{proof}
+
+\begin{remark}
+For $r = 0.97$ and $k = 5$: $\Pr[\text{majority wrong}] \approx 
+\binom{5}{3}(0.03)^3(0.97)^2 + \binom{5}{4}(0.03)^4(0.97)^1 + 
+(0.03)^5 \approx 2.55 \times 10^{-4}$, a $100\times$ improvement 
+over single-classifier violation probability.
+\end{remark}

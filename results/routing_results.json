@@ -1,0 +1,90 @@
+{
+  "summaries": [
+    {
+      "strategy": "Secure Default",
+      "cost_mean": 1.75,
+      "cost_std": 0.0,
+      "latency_mean": 1182.2,
+      "latency_std": 7.2,
+      "viol_mean": 0.0,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "Greedy Cost (Shadow AI)",
+      "cost_mean": 0.69,
+      "cost_std": 0.0,
+      "latency_mean": 310.6,
+      "latency_std": 1.9,
+      "viol_mean": 59.42,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "RouteLLM (Simulated)",
+      "cost_mean": 0.73,
+      "cost_std": 0.01,
+      "latency_mean": 344.9,
+      "latency_std": 5.3,
+      "viol_mean": 59.42,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "Binary PHI Filter",
+      "cost_mean": 1.28,
+      "cost_std": 0.0,
+      "latency_mean": 794.6,
+      "latency_std": 6.5,
+      "viol_mean": 15.87,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "PHI-GUARD",
+      "cost_mean": 1.06,
+      "cost_std": 0.0,
+      "latency_mean": 626.9,
+      "latency_std": 5.8,
+      "viol_mean": 2.32,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "PHI-GUARD (no decomp)",
+      "cost_mean": 1.06,
+      "cost_std": 0.0,
+      "latency_mean": 626.9,
+      "latency_std": 5.8,
+      "viol_mean": 2.32,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "PHI-GUARD (no tau)",
+      "cost_mean": 1.06,
+      "cost_std": 0.0,
+      "latency_mean": 625.3,
+      "latency_std": 5.8,
+      "viol_mean": 2.39,
+      "viol_std": 0.0,
+      "n": 1380
+    },
+    {
+      "strategy": "PHI-GUARD (no decomp, no tau)",
+      "cost_mean": 1.06,
+      "cost_std": 0.0,
+      "latency_mean": 625.3,
+      "latency_std": 5.8,
+      "viol_mean": 2.39,
+      "viol_std": 0.0,
+      "n": 1380
+    }
+  ],
+  "key_metrics": {
+    "cost_reduction": 39.4,
+    "compliance_premium": 53.6,
+    "violation_rate": 2.32,
+    "decomp_savings": 0.0
+  }
+}

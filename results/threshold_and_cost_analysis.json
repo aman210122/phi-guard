@@ -1,0 +1,178 @@
+{
+  "simulated_costs": [
+    {
+      "name": "StaticILP",
+      "total_cost": 4.45,
+      "avg_cost_per_query": 0.003225,
+      "violation_count": 33,
+      "violation_rate": 2.39,
+      "platform_distribution": {
+        "SecureCloud": 609,
+        "PublicAPI": 321,
+        "OnPremises": 450
+      }
+    },
+    {
+      "name": "CompTS (\u03b5=0.01)",
+      "total_cost": 6.3299,
+      "avg_cost_per_query": 0.004587,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "SecureDefault",
+      "total_cost": 6.3299,
+      "avg_cost_per_query": 0.004587,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "Threshold-0.8",
+      "total_cost": 4.4565,
+      "avg_cost_per_query": 0.003229,
+      "violation_count": 32,
+      "violation_rate": 2.32,
+      "platform_distribution": {
+        "SecureCloud": 608,
+        "PublicAPI": 319,
+        "OnPremises": 453
+      }
+    },
+    {
+      "name": "Threshold-0.85",
+      "total_cost": 4.4596,
+      "avg_cost_per_query": 0.003232,
+      "violation_count": 32,
+      "violation_rate": 2.32,
+      "platform_distribution": {
+        "SecureCloud": 608,
+        "PublicAPI": 317,
+        "OnPremises": 455
+      }
+    },
+    {
+      "name": "Threshold-0.9",
+      "total_cost": 4.4627,
+      "avg_cost_per_query": 0.003234,
+      "violation_count": 32,
+      "violation_rate": 2.32,
+      "platform_distribution": {
+        "SecureCloud": 608,
+        "PublicAPI": 315,
+        "OnPremises": 457
+      }
+    },
+    {
+      "name": "Threshold-0.95",
+      "total_cost": 4.8876,
+      "avg_cost_per_query": 0.003542,
+      "violation_count": 8,
+      "violation_rate": 0.58,
+      "platform_distribution": {
+        "SecureCloud": 497,
+        "PublicAPI": 310,
+        "OnPremises": 573
+      }
+    },
+    {
+      "name": "Threshold-0.99",
+      "total_cost": 6.3299,
+      "avg_cost_per_query": 0.004587,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    }
+  ],
+  "real_costs": [
+    {
+      "name": "StaticILP",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "CompTS (\u03b5=0.01)",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "SecureDefault",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "Threshold-0.8",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "Threshold-0.85",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "Threshold-0.9",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "Threshold-0.95",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    },
+    {
+      "name": "Threshold-0.99",
+      "total_cost": 0.0506,
+      "avg_cost_per_query": 3.7e-05,
+      "violation_count": 0,
+      "violation_rate": 0.0,
+      "platform_distribution": {
+        "OnPremises": 1380
+      }
+    }
+  ],
+  "compliance_premium_real": 0.0,
+  "per_query_premium_real": 0.0
+}

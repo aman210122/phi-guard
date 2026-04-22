@@ -1,0 +1,40 @@
+% Table I: System Performance
+\begin{table}[t]
+\centering
+\caption{System Performance on Evaluation Set (N=2{,}800)}
+\label{tab:results}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Method} & \textbf{Cost (\$)} & \textbf{Latency (ms)} & \textbf{Violation} & \textbf{T3 Recall} \\
+\midrule
+Secure Default & 1.75 & 1182 & 0.00\% & -- \\
+Greedy Cost (Shadow AI) & 0.69 & 311 & 59.42\% & -- \\
+RouteLLM (Simulated) & 0.73 & 345 & 59.42\% & -- \\
+Binary PHI Filter & 1.28 & 795 & 15.87\% & 94.8\% \\
+\midrule
+PHI-GUARD (ours) & \textbf{1.06} & \textbf{627} & \textbf{2.32\%} & \textbf{97.4\%} \\
+\quad w/o decomposition & 1.06 & 627 & 2.32\% & 97.4\% \\
+\quad w/o confidence $\tau$ & 1.06 & 625 & 2.39\% & 97.4\% \\
+\quad w/o both & 1.06 & 625 & 2.39\% & 97.4\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Table II: Classifier Performance
+\begin{table}[t]
+\centering
+\caption{Sensitivity Classifier Per-Tier Performance}
+\label{tab:classifier}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Tier} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} \\
+\midrule
+$T0$ (Public) & 1.000 & 1.000 & 1.000 \\
+$T1$ (Internal) & 1.000 & 1.000 & 1.000 \\
+$T2$ (Limited) & 0.963 & 0.973 & 0.968 \\
+$T3$ (Restricted) & 0.981 & 0.974 & 0.977 \\
+\midrule
+\textbf{Macro Avg} & \multicolumn{3}{c}{0.986} \\
+\bottomrule
+\end{tabular}
+\end{table}

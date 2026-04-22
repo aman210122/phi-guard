@@ -1,0 +1,138 @@
+{
+  "calibration": {
+    "ece": 0.0059,
+    "mce": 0.217,
+    "bins": [
+      {
+        "bin": 7,
+        "range": "[0.47, 0.53)",
+        "n": 101,
+        "accuracy": 0.5248,
+        "avg_conf": 0.5156,
+        "gap": 0.0092
+      },
+      {
+        "bin": 8,
+        "range": "[0.53, 0.60)",
+        "n": 169,
+        "accuracy": 0.6568,
+        "avg_conf": 0.5644,
+        "gap": 0.0924
+      },
+      {
+        "bin": 9,
+        "range": "[0.60, 0.67)",
+        "n": 83,
+        "accuracy": 0.747,
+        "avg_conf": 0.6316,
+        "gap": 0.1154
+      },
+      {
+        "bin": 10,
+        "range": "[0.67, 0.73)",
+        "n": 58,
+        "accuracy": 0.9138,
+        "avg_conf": 0.6967,
+        "gap": 0.217
+      },
+      {
+        "bin": 11,
+        "range": "[0.73, 0.80)",
+        "n": 38,
+        "accuracy": 0.9211,
+        "avg_conf": 0.7633,
+        "gap": 0.1577
+      },
+      {
+        "bin": 12,
+        "range": "[0.80, 0.87)",
+        "n": 20,
+        "accuracy": 1.0,
+        "avg_conf": 0.8327,
+        "gap": 0.1673
+      },
+      {
+        "bin": 13,
+        "range": "[0.87, 0.93)",
+        "n": 17,
+        "accuracy": 0.9412,
+        "avg_conf": 0.8975,
+        "gap": 0.0437
+      },
+      {
+        "bin": 14,
+        "range": "[0.93, 1.00)",
+        "n": 8505,
+        "accuracy": 0.9992,
+        "avg_conf": 0.9987,
+        "gap": 0.0005
+      }
+    ]
+  },
+  "tier_calibration": {
+    "T0": {
+      "n": 2220,
+      "ece": 0.0006,
+      "mce": 0.0006
+    },
+    "T1": {
+      "n": 1380,
+      "ece": 0.0012,
+      "mce": 0.0012
+    },
+    "T2": {
+      "n": 2240,
+      "ece": 0.0079,
+      "mce": 0.4969
+    },
+    "T3": {
+      "n": 3151,
+      "ece": 0.014,
+      "mce": 0.2376
+    }
+  },
+  "high_confidence_errors": {
+    "total_errors": 143,
+    "t3_errors": 83,
+    "t3_total": 3151,
+    "t3_error_conf": {
+      "min": 0.4984,
+      "mean": 0.594,
+      "max": 0.9972,
+      "std": 0.1328
+    },
+    "above_tau_0.7": 9,
+    "above_tau_0.8": 8,
+    "above_tau_0.9": 7,
+    "above_tau_0.95": 6
+  },
+  "safets_guarantee": {
+    "p_phi": 0.3505,
+    "t3_recall": 0.9737,
+    "one_minus_r": 0.0263,
+    "p_tau": 0.0964,
+    "epsilon": 0.02,
+    "theoretical_bound": "1.78e-05",
+    "ece": 0.0059,
+    "mce": 0.217,
+    "calibration_assumption_holds": false,
+    "guarantee_formally_valid": false,
+    "empirical_violations": 0,
+    "explanation": "Theorem 1 requires MCE \u2264 \u03b1 (typically \u03b1 < 0.05). Our MCE = 0.217, which VIOLATES this assumption. The bound of 1.78e-05 is therefore NOT formally valid. SafeTS achieves zero violations empirically, but this is an empirical observation, not a certified guarantee."
+  },
+  "cares_guarantee": {
+    "n_cal": 2697,
+    "delta": 0.005,
+    "q_hat": 20.0855,
+    "theoretical_bound": 0.005371,
+    "empirical_violation_rate": 0.0,
+    "violations": 0,
+    "bound_holds": true,
+    "t3_covered": 2176,
+    "t3_uncovered": 0,
+    "calibration_required": false,
+    "exchangeability_required": true,
+    "guarantee_formally_valid": true,
+    "explanation": "CARES bound: 0.005371. Empirical: 0.000000. This guarantee requires ONLY exchangeability (not calibration). It holds for any classifier, any distribution. This is the correct response to SafeTS's calibration violation."
+  }
+}

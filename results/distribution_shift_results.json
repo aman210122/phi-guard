@@ -1,0 +1,36 @@
+{
+  "n_total": 5000,
+  "shift_point": 2000,
+  "strategies": [
+    {
+      "name": "CompTS (adaptive)",
+      "phase1_avg_cost": 0.025,
+      "phase2_avg_cost": 0.025,
+      "phase1_viol_rate": 0.0,
+      "phase2_viol_rate": 0.0,
+      "total_viol_rate": 0.0,
+      "total_cost": 125.0,
+      "cost_change": 0.0
+    },
+    {
+      "name": "CompTS-NoPosterior",
+      "phase1_avg_cost": 0.025,
+      "phase2_avg_cost": 0.025,
+      "phase1_viol_rate": 0.0,
+      "phase2_viol_rate": 0.0,
+      "total_viol_rate": 0.0,
+      "total_cost": 125.0,
+      "cost_change": 0.0
+    },
+    {
+      "name": "StaticILP",
+      "phase1_avg_cost": 0.01279,
+      "phase2_avg_cost": 0.01774,
+      "phase1_viol_rate": 0.0035,
+      "phase2_viol_rate": 0.0137,
+      "total_viol_rate": 0.0096,
+      "total_cost": 78.808,
+      "cost_change": 38.7
+    }
+  ]
+}

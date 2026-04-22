@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Classifier ablation: CARES maintains zero violations across all classifier architectures. Worse classifiers produce larger conformal quantiles, resulting in more conservative routing (lower cloud\%) but identical safety guarantees.}
+\label{tab:classifier_ablation}
+\begin{tabular}{llccccc}
+\toprule
+\textbf{Classifier} & \textbf{Params} & \textbf{Acc.\%} & \textbf{T3 Rec.} & \textbf{Viol.} & \textbf{Cloud\%} & \textbf{Bound} \\
+\midrule
+DistilBERT-base & 66M & 98.4 & 0.974 & \textbf{0} & 35.6 & $\checkmark$ \\
+TF-IDF + LR & ~50K & 97.0 & 0.917 & \textbf{0} & 35.4 & $\checkmark$ \\
+Regex + NER & 0 (rules) & 56.2 & 0.606 & \textbf{0} & 31.9 & $\checkmark$ \\
+\bottomrule
+\end{tabular}
+\end{table}

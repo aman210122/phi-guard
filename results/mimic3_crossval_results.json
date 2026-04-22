@@ -1,0 +1,128 @@
+{
+  "mimic_iv_n": 8991,
+  "mimic_iii_n": 10000,
+  "classification": {
+    "mimic_iv": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2220
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1380
+      },
+      "2": {
+        "precision": 0.963,
+        "recall": 0.973,
+        "f1": 0.968,
+        "support": 2240
+      },
+      "3": {
+        "precision": 0.981,
+        "recall": 0.974,
+        "f1": 0.977,
+        "support": 3151
+      }
+    },
+    "mimic_iii": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2500
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1500
+      },
+      "2": {
+        "precision": 0.819,
+        "recall": 0.866,
+        "f1": 0.842,
+        "support": 2500
+      },
+      "3": {
+        "precision": 0.9,
+        "recall": 0.863,
+        "f1": 0.881,
+        "support": 3500
+      }
+    }
+  },
+  "routing": {
+    "SafeTS (\u03b5=0.02)": {
+      "mimic_iv": {
+        "name": "SafeTS (\u03b5=0.02)",
+        "cost": 13.2437,
+        "violations": 7,
+        "viol_pct": 0.078,
+        "cloud_pct": 63.1
+      },
+      "mimic_iii": {
+        "name": "SafeTS (\u03b5=0.02)",
+        "cost": 16.0012,
+        "violations": 13,
+        "viol_pct": 0.13,
+        "cloud_pct": 57.1
+      }
+    },
+    "CARES (\u03b4=0.005)": {
+      "mimic_iv": {
+        "name": "CARES (\u03b4=0.005)",
+        "cost": 16.7467,
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 40.0
+      },
+      "mimic_iii": {
+        "name": "CARES (\u03b4=0.005)",
+        "cost": 18.9428,
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 40.0
+      }
+    },
+    "StaticILP": {
+      "mimic_iv": {
+        "name": "StaticILP",
+        "cost": 12.915,
+        "violations": 83,
+        "viol_pct": 0.923,
+        "cloud_pct": 65.2
+      },
+      "mimic_iii": {
+        "name": "StaticILP",
+        "cost": 14.3545,
+        "violations": 478,
+        "viol_pct": 4.78,
+        "cloud_pct": 66.4
+      }
+    },
+    "SecureDefault": {
+      "mimic_iv": {
+        "name": "SecureDefault",
+        "cost": 17.2485,
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 0.0
+      },
+      "mimic_iii": {
+        "name": "SecureDefault",
+        "cost": 19.4987,
+        "violations": 0,
+        "viol_pct": 0.0,
+        "cloud_pct": 0.0
+      }
+    }
+  },
+  "t3_recall": {
+    "mimic_iv": 0.974,
+    "mimic_iii": 0.863
+  }
+}

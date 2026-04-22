@@ -1,0 +1,16 @@
+{
+  "distilbert_t3_recall": 0.9313,
+  "hybrid_t3_recall": 0.9542,
+  "rules_caught": 11,
+  "rules_false_alarms": 3,
+  "distilbert_compts_cost": 6.3299,
+  "distilbert_compts_violations": 0,
+  "distilbert_compts_routing": {
+    "OnPremises": 1380
+  },
+  "hybrid_compts_cost": 6.3299,
+  "hybrid_compts_violations": 0,
+  "hybrid_compts_routing": {
+    "OnPremises": 1380
+  }
+}

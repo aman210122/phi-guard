@@ -1,0 +1,15 @@
+{
+  "on_premises": {
+    "n_queries": 200,
+    "n_errors": 0,
+    "avg_latency_ms": 19121.0,
+    "p50_latency_ms": 20253.0,
+    "p99_latency_ms": 28425.5,
+    "total_cost_usd": 0.005898,
+    "avg_cost_per_query_usd": 2.9e-05,
+    "avg_cost_per_1k_tokens": 0.000212,
+    "avg_input_tokens": 139.0,
+    "avg_output_tokens": 73.3,
+    "model": "llama3.1:8b"
+  }
+}

@@ -1,0 +1,750 @@
+{
+  "n_total": 3996,
+  "n_calibration": 1598,
+  "n_evaluation": 2398,
+  "classifier_accuracy": 0.9666388657214345,
+  "t3_recall": 0.9893992932862191,
+  "t3_missed": 9,
+  "strategies": [
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=0.5",
+      "cost": 3.7547,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1108,
+      "cloud_routed": 1290,
+      "cloud_pct": 53.8,
+      "routing": {
+        "SecureCloud": 1290,
+        "OnPremises": 1108
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=1.0",
+      "cost": 3.7471,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1113,
+      "cloud_routed": 1285,
+      "cloud_pct": 53.6,
+      "routing": {
+        "SecureCloud": 1285,
+        "OnPremises": 1113
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=2.0",
+      "cost": 3.7476,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1117,
+      "cloud_routed": 1281,
+      "cloud_pct": 53.4,
+      "routing": {
+        "SecureCloud": 1281,
+        "OnPremises": 1117
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=0.5",
+      "cost": 3.7624,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1118,
+      "cloud_routed": 1280,
+      "cloud_pct": 53.4,
+      "routing": {
+        "SecureCloud": 1280,
+        "OnPremises": 1118
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=1.0",
+      "cost": 3.7179,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1105,
+      "cloud_routed": 1293,
+      "cloud_pct": 53.9,
+      "routing": {
+        "SecureCloud": 1293,
+        "OnPremises": 1105
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=2.0",
+      "cost": 3.745,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1128,
+      "cloud_routed": 1270,
+      "cloud_pct": 53.0,
+      "routing": {
+        "SecureCloud": 1270,
+        "OnPremises": 1128
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=0.5",
+      "cost": 3.7346,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1117,
+      "cloud_routed": 1281,
+      "cloud_pct": 53.4,
+      "routing": {
+        "SecureCloud": 1281,
+        "OnPremises": 1117
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=1.0",
+      "cost": 3.7192,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1095,
+      "cloud_routed": 1303,
+      "cloud_pct": 54.3,
+      "routing": {
+        "SecureCloud": 1303,
+        "OnPremises": 1095
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=2.0",
+      "cost": 3.7398,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1114,
+      "cloud_routed": 1284,
+      "cloud_pct": 53.5,
+      "routing": {
+        "SecureCloud": 1284,
+        "OnPremises": 1114
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=0.5",
+      "cost": 3.7205,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1052,
+      "cloud_routed": 1346,
+      "cloud_pct": 56.1,
+      "routing": {
+        "SecureCloud": 1023,
+        "PublicAPI": 323,
+        "OnPremises": 1052
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=1.0",
+      "cost": 3.7478,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1129,
+      "cloud_routed": 1269,
+      "cloud_pct": 52.9,
+      "routing": {
+        "SecureCloud": 1269,
+        "OnPremises": 1129
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=2.0",
+      "cost": 3.7398,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1112,
+      "cloud_routed": 1286,
+      "cloud_pct": 53.6,
+      "routing": {
+        "SecureCloud": 1286,
+        "OnPremises": 1112
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=0.5",
+      "cost": 3.7484,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1055,
+      "cloud_routed": 1343,
+      "cloud_pct": 56.0,
+      "routing": {
+        "SecureCloud": 1036,
+        "OnPremises": 1055,
+        "PublicAPI": 307
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=1.0",
+      "cost": 3.7301,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1104,
+      "cloud_routed": 1294,
+      "cloud_pct": 54.0,
+      "routing": {
+        "SecureCloud": 1294,
+        "OnPremises": 1104
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=2.0",
+      "cost": 3.7638,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1133,
+      "cloud_routed": 1265,
+      "cloud_pct": 52.8,
+      "routing": {
+        "SecureCloud": 1265,
+        "OnPremises": 1133
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=0.5",
+      "cost": 3.7349,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1047,
+      "cloud_routed": 1351,
+      "cloud_pct": 56.3,
+      "routing": {
+        "SecureCloud": 1032,
+        "PublicAPI": 319,
+        "OnPremises": 1047
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=1.0",
+      "cost": 3.7472,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1123,
+      "cloud_routed": 1275,
+      "cloud_pct": 53.2,
+      "routing": {
+        "SecureCloud": 1275,
+        "OnPremises": 1123
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=2.0",
+      "cost": 3.7352,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1103,
+      "cloud_routed": 1295,
+      "cloud_pct": 54.0,
+      "routing": {
+        "SecureCloud": 1295,
+        "OnPremises": 1103
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=0.5",
+      "cost": 3.7138,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1040,
+      "cloud_routed": 1358,
+      "cloud_pct": 56.6,
+      "routing": {
+        "OnPremises": 1040,
+        "SecureCloud": 1016,
+        "PublicAPI": 342
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=1.0",
+      "cost": 3.7456,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1052,
+      "cloud_routed": 1346,
+      "cloud_pct": 56.1,
+      "routing": {
+        "SecureCloud": 1026,
+        "PublicAPI": 320,
+        "OnPremises": 1052
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=2.0",
+      "cost": 3.7449,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1055,
+      "cloud_routed": 1343,
+      "cloud_pct": 56.0,
+      "routing": {
+        "OnPremises": 1055,
+        "SecureCloud": 1034,
+        "PublicAPI": 309
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=0.5",
+      "cost": 3.7238,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1044,
+      "cloud_routed": 1354,
+      "cloud_pct": 56.5,
+      "routing": {
+        "SecureCloud": 1033,
+        "PublicAPI": 321,
+        "OnPremises": 1044
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=1.0",
+      "cost": 3.7204,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1046,
+      "cloud_routed": 1352,
+      "cloud_pct": 56.4,
+      "routing": {
+        "OnPremises": 1046,
+        "SecureCloud": 1047,
+        "PublicAPI": 305
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=2.0",
+      "cost": 3.7245,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1046,
+      "cloud_routed": 1352,
+      "cloud_pct": 56.4,
+      "routing": {
+        "OnPremises": 1046,
+        "SecureCloud": 1047,
+        "PublicAPI": 305
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=0.5",
+      "cost": 3.7223,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1050,
+      "cloud_routed": 1348,
+      "cloud_pct": 56.2,
+      "routing": {
+        "SecureCloud": 1049,
+        "PublicAPI": 299,
+        "OnPremises": 1050
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=1.0",
+      "cost": 3.7493,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1064,
+      "cloud_routed": 1334,
+      "cloud_pct": 55.6,
+      "routing": {
+        "SecureCloud": 1026,
+        "PublicAPI": 308,
+        "OnPremises": 1064
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=2.0",
+      "cost": 3.7243,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1044,
+      "cloud_routed": 1354,
+      "cloud_pct": 56.5,
+      "routing": {
+        "SecureCloud": 1049,
+        "PublicAPI": 305,
+        "OnPremises": 1044
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CompTS \u03b5=0.001",
+      "cost": 4.4706,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1444,
+      "cloud_routed": 954,
+      "cloud_pct": 39.8,
+      "routing": {
+        "OnPremises": 1444,
+        "PublicAPI": 565,
+        "SecureCloud": 389
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CompTS \u03b5=0.005",
+      "cost": 3.7321,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1006,
+      "cloud_routed": 1392,
+      "cloud_pct": 58.0,
+      "routing": {
+        "SecureCloud": 806,
+        "PublicAPI": 586,
+        "OnPremises": 1006
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CompTS \u03b5=0.01",
+      "cost": 3.6683,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 966,
+      "cloud_routed": 1432,
+      "cloud_pct": 59.7,
+      "routing": {
+        "SecureCloud": 846,
+        "PublicAPI": 586,
+        "OnPremises": 966
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CompTS \u03b5=0.02",
+      "cost": 3.6412,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 950,
+      "cloud_routed": 1448,
+      "cloud_pct": 60.4,
+      "routing": {
+        "SecureCloud": 862,
+        "PublicAPI": 586,
+        "OnPremises": 950
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "CompTS \u03b5=0.05",
+      "cost": 3.6198,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 937,
+      "cloud_routed": 1461,
+      "cloud_pct": 60.9,
+      "routing": {
+        "SecureCloud": 875,
+        "PublicAPI": 586,
+        "OnPremises": 937
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "StaticILP",
+      "cost": 3.5763,
+      "violations": 9,
+      "viol_pct": 0.375,
+      "on_prem": 911,
+      "cloud_routed": 1487,
+      "cloud_pct": 62.0,
+      "routing": {
+        "SecureCloud": 901,
+        "PublicAPI": 586,
+        "OnPremises": 911
+      },
+      "n": 2398,
+      "violation_details": [
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.5392383337020874,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.6431946158409119,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.6509237289428711,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.5733408331871033,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.7237669825553894,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.5883117914199829,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.5102326273918152,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.6147407293319702,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 2,
+          "conf": 0.5451544523239136,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "SecureDefault",
+      "cost": 4.6178,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 2398,
+      "cloud_routed": 0,
+      "cloud_pct": 0.0,
+      "routing": {
+        "OnPremises": 2398
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "Greedy",
+      "cost": 1.8471,
+      "violations": 1812,
+      "viol_pct": 75.563,
+      "on_prem": 0,
+      "cloud_routed": 2398,
+      "cloud_pct": 100.0,
+      "routing": {
+        "PublicAPI": 2398
+      },
+      "n": 2398,
+      "violation_details": [
+        {
+          "true_tier": 2,
+          "pred_tier": 2,
+          "conf": 0.9934234619140625,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 2,
+          "pred_tier": 2,
+          "conf": 0.9944994449615479,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 2,
+          "pred_tier": 2,
+          "conf": 0.993796706199646,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 3,
+          "conf": 0.9987635612487793,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 2,
+          "pred_tier": 2,
+          "conf": 0.9919381737709045,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 3,
+          "conf": 0.9922904372215271,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 1,
+          "pred_tier": 1,
+          "conf": 0.998336911201477,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 3,
+          "conf": 0.9987326264381409,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 3,
+          "pred_tier": 3,
+          "conf": 0.9987825751304626,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true_tier": 2,
+          "pred_tier": 3,
+          "conf": 0.7373496294021606,
+          "platform": "PublicAPI",
+          "clearance": 0
+        }
+      ]
+    },
+    {
+      "name": "Threshold-0.8",
+      "cost": 3.6131,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 933,
+      "cloud_routed": 1465,
+      "cloud_pct": 61.1,
+      "routing": {
+        "SecureCloud": 879,
+        "PublicAPI": 586,
+        "OnPremises": 933
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "Threshold-0.9",
+      "cost": 3.6282,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 942,
+      "cloud_routed": 1456,
+      "cloud_pct": 60.7,
+      "routing": {
+        "SecureCloud": 870,
+        "PublicAPI": 586,
+        "OnPremises": 942
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "Threshold-0.95",
+      "cost": 3.6464,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 953,
+      "cloud_routed": 1445,
+      "cloud_pct": 60.3,
+      "routing": {
+        "SecureCloud": 859,
+        "PublicAPI": 586,
+        "OnPremises": 953
+      },
+      "n": 2398,
+      "violation_details": []
+    },
+    {
+      "name": "Threshold-0.99",
+      "cost": 3.8018,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "on_prem": 1048,
+      "cloud_routed": 1350,
+      "cloud_pct": 56.3,
+      "routing": {
+        "SecureCloud": 764,
+        "PublicAPI": 586,
+        "OnPremises": 1048
+      },
+      "n": 2398,
+      "violation_details": []
+    }
+  ]
+}

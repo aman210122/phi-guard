@@ -1,0 +1,37 @@
+{
+  "pre_calibration": {
+    "ece": 0.005889815644313166,
+    "mce": 0.21704777561385058,
+    "overconfidence": {
+      "n_total": 8991,
+      "n_confident": 8542,
+      "n_confident_wrong": 8,
+      "n_confident_right": 8534,
+      "p_tau": 0.0008897786675564454,
+      "confident_accuracy": 0.9990634511823929,
+      "threshold": 0.8
+    }
+  },
+  "post_calibration": {
+    "ece": 0.002787857359590293,
+    "mce": 0.10226644066395674,
+    "temperature": 0.8000000000000002,
+    "overconfidence": {
+      "n_total": 8991,
+      "n_confident": 8596,
+      "n_confident_wrong": 11,
+      "n_confident_right": 8585,
+      "p_tau": 0.0012234456678901122,
+      "confident_accuracy": 0.9987203350395533,
+      "threshold": 0.8
+    }
+  },
+  "safety_impact": {
+    "bound_before_calibration": 7.067778773175806e-07,
+    "bound_after_calibration": 3.345428831508354e-07,
+    "improvement_factor": 2.11,
+    "improvement_percent": 52.7,
+    "ece_before": 0.005889815644313166,
+    "ece_after": 0.002787857359590293
+  }
+}

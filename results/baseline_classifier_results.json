@@ -1,0 +1,11 @@
+{
+  "classifier": "TF-IDF + Logistic Regression",
+  "features": "TF-IDF (10K features, unigrams+bigrams)",
+  "n_test": 1380,
+  "accuracy": 0.7811594202898551,
+  "t3_recall": 1.0,
+  "t3_misclassified": 0,
+  "t3_total": 480,
+  "mean_confidence_correct": 0.8367771119824157,
+  "mean_confidence_incorrect": 0.5624759096740287
+}

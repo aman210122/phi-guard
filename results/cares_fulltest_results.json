@@ -1,0 +1,5054 @@
+{
+  "n_eval": 8991,
+  "n_cal": 2976,
+  "accuracy": 0.9840952063174285,
+  "t3_recall": 0.9736591558235481,
+  "t3_missed": 83,
+  "results": [
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.005 \u03bc=0.5 \u03c4=0.7",
+      "cost": 16.8031,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5792,
+        "SecureCloud": 3199
+      },
+      "n": 8991,
+      "cloud_pct": 35.6,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.005 \u03bc=0.5 \u03c4=0.8",
+      "cost": 16.8079,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5833,
+        "SecureCloud": 3158
+      },
+      "n": 8991,
+      "cloud_pct": 35.1,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.005 \u03bc=1.0 \u03c4=0.7",
+      "cost": 16.8045,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5806,
+        "SecureCloud": 3185
+      },
+      "n": 8991,
+      "cloud_pct": 35.4,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.005 \u03bc=1.0 \u03c4=0.8",
+      "cost": 16.8127,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5864,
+        "SecureCloud": 3127
+      },
+      "n": 8991,
+      "cloud_pct": 34.8,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.005 \u03bc=2.0 \u03c4=0.7",
+      "cost": 16.8067,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5821,
+        "SecureCloud": 3170
+      },
+      "n": 8991,
+      "cloud_pct": 35.3,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.005 \u03bc=2.0 \u03c4=0.8",
+      "cost": 16.8121,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5858,
+        "SecureCloud": 3133
+      },
+      "n": 8991,
+      "cloud_pct": 34.8,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.703,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 4015,
+        "SecureCloud": 4976
+      },
+      "n": 8991,
+      "cloud_pct": 55.3,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.6872,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3945,
+        "SecureCloud": 5046
+      },
+      "n": 8991,
+      "cloud_pct": 56.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.6756,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3995,
+        "SecureCloud": 4996
+      },
+      "n": 8991,
+      "cloud_pct": 55.6,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.7284,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3973,
+        "SecureCloud": 5018
+      },
+      "n": 8991,
+      "cloud_pct": 55.8,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.7404,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 4025,
+        "SecureCloud": 4966
+      },
+      "n": 8991,
+      "cloud_pct": 55.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.01 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.7048,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 4006,
+        "SecureCloud": 4985
+      },
+      "n": 8991,
+      "cloud_pct": 55.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.6732,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3936,
+        "SecureCloud": 5055
+      },
+      "n": 8991,
+      "cloud_pct": 56.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.7571,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 4031,
+        "SecureCloud": 4960
+      },
+      "n": 8991,
+      "cloud_pct": 55.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.7136,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 4034,
+        "SecureCloud": 4957
+      },
+      "n": 8991,
+      "cloud_pct": 55.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.7371,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3971,
+        "SecureCloud": 5020
+      },
+      "n": 8991,
+      "cloud_pct": 55.8,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.7751,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 4058,
+        "SecureCloud": 4933
+      },
+      "n": 8991,
+      "cloud_pct": 54.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.02 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.7703,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 4026,
+        "SecureCloud": 4965
+      },
+      "n": 8991,
+      "cloud_pct": 55.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.6848,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 3954,
+        "SecureCloud": 5037
+      },
+      "n": 8991,
+      "cloud_pct": 56.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.734,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3989,
+        "SecureCloud": 5002
+      },
+      "n": 8991,
+      "cloud_pct": 55.6,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.6785,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3976,
+        "SecureCloud": 5015
+      },
+      "n": 8991,
+      "cloud_pct": 55.8,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.7262,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3997,
+        "SecureCloud": 4994
+      },
+      "n": 8991,
+      "cloud_pct": 55.5,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.7113,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 3988,
+        "SecureCloud": 5003
+      },
+      "n": 8991,
+      "cloud_pct": 55.6,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=1.0 \u03b4=0.05 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.7111,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 4008,
+        "SecureCloud": 4983
+      },
+      "n": 8991,
+      "cloud_pct": 55.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.005 \u03bc=0.5 \u03c4=0.7",
+      "cost": 16.808,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5837,
+        "SecureCloud": 3154
+      },
+      "n": 8991,
+      "cloud_pct": 35.1,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.005 \u03bc=0.5 \u03c4=0.8",
+      "cost": 16.8111,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5856,
+        "SecureCloud": 3135
+      },
+      "n": 8991,
+      "cloud_pct": 34.9,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.005 \u03bc=1.0 \u03c4=0.7",
+      "cost": 16.8144,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5881,
+        "SecureCloud": 3110
+      },
+      "n": 8991,
+      "cloud_pct": 34.6,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.005 \u03bc=1.0 \u03c4=0.8",
+      "cost": 16.8087,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5838,
+        "SecureCloud": 3153
+      },
+      "n": 8991,
+      "cloud_pct": 35.1,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.005 \u03bc=2.0 \u03c4=0.7",
+      "cost": 16.8098,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5847,
+        "SecureCloud": 3144
+      },
+      "n": 8991,
+      "cloud_pct": 35.0,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.005 \u03bc=2.0 \u03c4=0.8",
+      "cost": 16.8064,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5823,
+        "SecureCloud": 3168
+      },
+      "n": 8991,
+      "cloud_pct": 35.2,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.6995,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3773,
+        "SecureCloud": 4033,
+        "PublicAPI": 1185
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.689,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3774,
+        "SecureCloud": 4013,
+        "PublicAPI": 1204
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.7133,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3998,
+        "SecureCloud": 4993
+      },
+      "n": 8991,
+      "cloud_pct": 55.5,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.6955,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3984,
+        "SecureCloud": 5007
+      },
+      "n": 8991,
+      "cloud_pct": 55.7,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.7262,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3995,
+        "SecureCloud": 4996
+      },
+      "n": 8991,
+      "cloud_pct": 55.6,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.01 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.7469,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3998,
+        "SecureCloud": 4993
+      },
+      "n": 8991,
+      "cloud_pct": 55.5,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.6776,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3751,
+        "SecureCloud": 4029,
+        "PublicAPI": 1211
+      },
+      "n": 8991,
+      "cloud_pct": 58.3,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.6826,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3756,
+        "SecureCloud": 4042,
+        "PublicAPI": 1193
+      },
+      "n": 8991,
+      "cloud_pct": 58.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.7252,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 4028,
+        "SecureCloud": 4963
+      },
+      "n": 8991,
+      "cloud_pct": 55.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.7406,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 4033,
+        "SecureCloud": 4958
+      },
+      "n": 8991,
+      "cloud_pct": 55.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.7423,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 4000,
+        "SecureCloud": 4991
+      },
+      "n": 8991,
+      "cloud_pct": 55.5,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.02 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.7467,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 4047,
+        "SecureCloud": 4944
+      },
+      "n": 8991,
+      "cloud_pct": 55.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.7073,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3805,
+        "SecureCloud": 3991,
+        "PublicAPI": 1195
+      },
+      "n": 8991,
+      "cloud_pct": 57.7,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.6756,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3737,
+        "SecureCloud": 4042,
+        "PublicAPI": 1212
+      },
+      "n": 8991,
+      "cloud_pct": 58.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.7376,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 4008,
+        "SecureCloud": 4983
+      },
+      "n": 8991,
+      "cloud_pct": 55.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.7544,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 4013,
+        "SecureCloud": 4978
+      },
+      "n": 8991,
+      "cloud_pct": 55.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.6669,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3964,
+        "SecureCloud": 5027
+      },
+      "n": 8991,
+      "cloud_pct": 55.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=2.0 \u03b4=0.05 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.7319,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 4007,
+        "SecureCloud": 4984
+      },
+      "n": 8991,
+      "cloud_pct": 55.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.005 \u03bc=0.5 \u03c4=0.7",
+      "cost": 16.8102,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5844,
+        "SecureCloud": 3147
+      },
+      "n": 8991,
+      "cloud_pct": 35.0,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.005 \u03bc=0.5 \u03c4=0.8",
+      "cost": 16.8144,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5872,
+        "SecureCloud": 3119
+      },
+      "n": 8991,
+      "cloud_pct": 34.7,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.005 \u03bc=1.0 \u03c4=0.7",
+      "cost": 16.8045,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5807,
+        "SecureCloud": 3184
+      },
+      "n": 8991,
+      "cloud_pct": 35.4,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.005 \u03bc=1.0 \u03c4=0.8",
+      "cost": 16.8048,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5815,
+        "SecureCloud": 3176
+      },
+      "n": 8991,
+      "cloud_pct": 35.3,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.005 \u03bc=2.0 \u03c4=0.7",
+      "cost": 16.8098,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5836,
+        "SecureCloud": 3155
+      },
+      "n": 8991,
+      "cloud_pct": 35.1,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.005 \u03bc=2.0 \u03c4=0.8",
+      "cost": 16.8069,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 5824,
+        "SecureCloud": 3167
+      },
+      "n": 8991,
+      "cloud_pct": 35.2,
+      "viol_details": []
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.6768,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3777,
+        "SecureCloud": 4004,
+        "PublicAPI": 1210
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.7056,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3773,
+        "SecureCloud": 4023,
+        "PublicAPI": 1195
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.6584,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3743,
+        "SecureCloud": 4038,
+        "PublicAPI": 1210
+      },
+      "n": 8991,
+      "cloud_pct": 58.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.6647,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3754,
+        "SecureCloud": 4031,
+        "PublicAPI": 1206
+      },
+      "n": 8991,
+      "cloud_pct": 58.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.6748,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3761,
+        "SecureCloud": 3998,
+        "PublicAPI": 1232
+      },
+      "n": 8991,
+      "cloud_pct": 58.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.01 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.6914,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3780,
+        "SecureCloud": 4034,
+        "PublicAPI": 1177
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.7241,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3786,
+        "SecureCloud": 4031,
+        "PublicAPI": 1174
+      },
+      "n": 8991,
+      "cloud_pct": 57.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.6909,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3772,
+        "SecureCloud": 4017,
+        "PublicAPI": 1202
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.6549,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 3763,
+        "SecureCloud": 4030,
+        "PublicAPI": 1198
+      },
+      "n": 8991,
+      "cloud_pct": 58.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.6767,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3787,
+        "SecureCloud": 3981,
+        "PublicAPI": 1223
+      },
+      "n": 8991,
+      "cloud_pct": 57.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.6595,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3747,
+        "PublicAPI": 1221,
+        "SecureCloud": 4023
+      },
+      "n": 8991,
+      "cloud_pct": 58.3,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.02 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.6428,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3732,
+        "PublicAPI": 1212,
+        "SecureCloud": 4047
+      },
+      "n": 8991,
+      "cloud_pct": 58.5,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=0.5 \u03c4=0.7",
+      "cost": 13.7129,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 3781,
+        "PublicAPI": 1188,
+        "SecureCloud": 4022
+      },
+      "n": 8991,
+      "cloud_pct": 57.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=0.5 \u03c4=0.8",
+      "cost": 13.696,
+      "violations": 5,
+      "viol_pct": 0.056,
+      "routing": {
+        "OnPremises": 3780,
+        "SecureCloud": 4018,
+        "PublicAPI": 1193
+      },
+      "n": 8991,
+      "cloud_pct": 58.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=1.0 \u03c4=0.7",
+      "cost": 13.6639,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3781,
+        "SecureCloud": 4030,
+        "PublicAPI": 1180
+      },
+      "n": 8991,
+      "cloud_pct": 57.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=1.0 \u03c4=0.8",
+      "cost": 13.6866,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3766,
+        "SecureCloud": 4036,
+        "PublicAPI": 1189
+      },
+      "n": 8991,
+      "cloud_pct": 58.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=2.0 \u03c4=0.7",
+      "cost": 13.668,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 3754,
+        "SecureCloud": 4090,
+        "PublicAPI": 1147
+      },
+      "n": 8991,
+      "cloud_pct": 58.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CARES \u03bb=3.0 \u03b4=0.05 \u03bc=2.0 \u03c4=0.8",
+      "cost": 13.6975,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3770,
+        "SecureCloud": 4040,
+        "PublicAPI": 1181
+      },
+      "n": 8991,
+      "cloud_pct": 58.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.001 \u03c4=0.7",
+      "cost": 13.3707,
+      "violations": 1,
+      "viol_pct": 0.011,
+      "routing": {
+        "OnPremises": 3394,
+        "SecureCloud": 3377,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 62.3,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.001 \u03c4=0.8",
+      "cost": 13.3707,
+      "violations": 1,
+      "viol_pct": 0.011,
+      "routing": {
+        "OnPremises": 3394,
+        "SecureCloud": 3377,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 62.3,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.005 \u03c4=0.7",
+      "cost": 13.2706,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3334,
+        "SecureCloud": 3437,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 62.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.005 \u03c4=0.8",
+      "cost": 13.2706,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3334,
+        "SecureCloud": 3437,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 62.9,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.01 \u03c4=0.7",
+      "cost": 13.2548,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3325,
+        "SecureCloud": 3446,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.01 \u03c4=0.8",
+      "cost": 13.2548,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3325,
+        "SecureCloud": 3446,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.02 \u03c4=0.7",
+      "cost": 13.2437,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3318,
+        "SecureCloud": 3453,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.02 \u03c4=0.8",
+      "cost": 13.2437,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3318,
+        "SecureCloud": 3453,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.05 \u03c4=0.7",
+      "cost": 13.2233,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3306,
+        "SecureCloud": 3465,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "CompTS \u03b5=0.05 \u03c4=0.8",
+      "cost": 13.2233,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3306,
+        "SecureCloud": 3465,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "StaticILP",
+      "cost": 12.915,
+      "violations": 83,
+      "viol_pct": 0.923,
+      "routing": {
+        "OnPremises": 3128,
+        "SecureCloud": 3643,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 65.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.523,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.584,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.552,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.535,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.581,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.538,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.581,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.52,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.57,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.498,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.535,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.569,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.503,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.533,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.549,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.516,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.55,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.531,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.559,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "SecureDefault",
+      "cost": 17.2485,
+      "violations": 0,
+      "viol_pct": 0.0,
+      "routing": {
+        "OnPremises": 8991
+      },
+      "n": 8991,
+      "cloud_pct": 0.0,
+      "viol_details": []
+    },
+    {
+      "name": "Greedy",
+      "cost": 6.8994,
+      "violations": 6771,
+      "viol_pct": 75.309,
+      "routing": {
+        "PublicAPI": 8991
+      },
+      "n": 8991,
+      "cloud_pct": 100.0,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 2,
+          "pred": 2,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.998,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 2,
+          "pred": 2,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.697,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.991,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 2,
+          "pred": 2,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 3,
+          "pred": 3,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 1,
+          "pred": 1,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        },
+        {
+          "true": 1,
+          "pred": 1,
+          "conf": 0.999,
+          "platform": "PublicAPI",
+          "clearance": 0
+        }
+      ]
+    },
+    {
+      "name": "Threshold-0.7",
+      "cost": 13.1995,
+      "violations": 9,
+      "viol_pct": 0.1,
+      "routing": {
+        "OnPremises": 3292,
+        "SecureCloud": 3479,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.4,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.757,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "Threshold-0.8",
+      "cost": 13.2149,
+      "violations": 8,
+      "viol_pct": 0.089,
+      "routing": {
+        "OnPremises": 3301,
+        "SecureCloud": 3470,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.3,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.889,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "Threshold-0.9",
+      "cost": 13.2313,
+      "violations": 7,
+      "viol_pct": 0.078,
+      "routing": {
+        "OnPremises": 3311,
+        "SecureCloud": 3460,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.2,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.942,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "Threshold-0.95",
+      "cost": 13.2497,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3322,
+        "SecureCloud": 3449,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 63.1,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    },
+    {
+      "name": "Threshold-0.99",
+      "cost": 13.2836,
+      "violations": 6,
+      "viol_pct": 0.067,
+      "routing": {
+        "OnPremises": 3342,
+        "SecureCloud": 3429,
+        "PublicAPI": 2220
+      },
+      "n": 8991,
+      "cloud_pct": 62.8,
+      "viol_details": [
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.993,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.996,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.991,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.995,
+          "platform": "SecureCloud",
+          "clearance": 2
+        },
+        {
+          "true": 3,
+          "pred": 2,
+          "conf": 0.997,
+          "platform": "SecureCloud",
+          "clearance": 2
+        }
+      ]
+    }
+  ]
+}

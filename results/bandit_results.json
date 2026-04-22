@@ -1,0 +1,149 @@
+{
+  "Oracle": {
+    "name": "Oracle",
+    "total_cost": 1.0884,
+    "avg_cost_per_query": 0.000789,
+    "total_violations": 0,
+    "violation_rate": 0.0,
+    "max_window_violation_rate": 0.0,
+    "avg_latency": 658.5,
+    "platform_distribution": {
+      "Secure_Cloud": 576,
+      "Public_API": 324,
+      "On_Premises": 480
+    },
+    "num_queries": 1380
+  },
+  "CompTS": {
+    "name": "CompTS",
+    "total_cost": 1.3673,
+    "avg_cost_per_query": 0.000991,
+    "total_violations": 0,
+    "violation_rate": 0.0,
+    "max_window_violation_rate": 0.0,
+    "avg_latency": 885.2,
+    "platform_distribution": {
+      "On_Premises": 845,
+      "Secure_Cloud": 533,
+      "Public_API": 2
+    },
+    "num_queries": 1380
+  },
+  "Static_ILP": {
+    "name": "Static_ILP",
+    "total_cost": 1.0692,
+    "avg_cost_per_query": 0.000775,
+    "total_violations": 32,
+    "violation_rate": 2.32,
+    "max_window_violation_rate": 6.0,
+    "avg_latency": 644.1,
+    "platform_distribution": {
+      "Secure_Cloud": 608,
+      "Public_API": 319,
+      "On_Premises": 453
+    },
+    "num_queries": 1380
+  },
+  "RouteLLM_Sim": {
+    "name": "RouteLLM_Sim",
+    "total_cost": 1.4338,
+    "avg_cost_per_query": 0.001039,
+    "total_violations": 236,
+    "violation_rate": 17.1,
+    "max_window_violation_rate": 27.0,
+    "avg_latency": 919.0,
+    "platform_distribution": {
+      "On_Premises": 966,
+      "Public_API": 414
+    },
+    "num_queries": 1380
+  },
+  "Greedy": {
+    "name": "Greedy",
+    "total_cost": 0.69,
+    "avg_cost_per_query": 0.0005,
+    "total_violations": 1056,
+    "violation_rate": 76.52,
+    "max_window_violation_rate": 86.0,
+    "avg_latency": 310.0,
+    "platform_distribution": {
+      "Public_API": 1380
+    },
+    "num_queries": 1380
+  },
+  "Secure_Default": {
+    "name": "Secure_Default",
+    "total_cost": 1.7526,
+    "avg_cost_per_query": 0.00127,
+    "total_violations": 0,
+    "violation_rate": 0.0,
+    "max_window_violation_rate": 0.0,
+    "avg_latency": 1180.0,
+    "platform_distribution": {
+      "On_Premises": 1380
+    },
+    "num_queries": 1380
+  },
+  "CompTS_NoFallback": {
+    "name": "CompTS_NoFallback",
+    "total_cost": 1.3673,
+    "avg_cost_per_query": 0.000991,
+    "total_violations": 0,
+    "violation_rate": 0.0,
+    "max_window_violation_rate": 0.0,
+    "avg_latency": 885.2,
+    "platform_distribution": {
+      "On_Premises": 845,
+      "Secure_Cloud": 533,
+      "Public_API": 2
+    },
+    "num_queries": 1380
+  },
+  "CompTS_NoPosterior": {
+    "name": "CompTS_NoPosterior",
+    "total_cost": 1.3631,
+    "avg_cost_per_query": 0.000988,
+    "total_violations": 0,
+    "violation_rate": 0.0,
+    "max_window_violation_rate": 0.0,
+    "avg_latency": 882.1,
+    "platform_distribution": {
+      "On_Premises": 839,
+      "Secure_Cloud": 541
+    },
+    "num_queries": 1380
+  },
+  "CompTS_HighEps": {
+    "name": "CompTS_HighEps",
+    "total_cost": 1.0719,
+    "avg_cost_per_query": 0.000777,
+    "total_violations": 32,
+    "violation_rate": 2.32,
+    "max_window_violation_rate": 6.0,
+    "avg_latency": 648.4,
+    "platform_distribution": {
+      "Secure_Cloud": 662,
+      "Public_API": 265,
+      "On_Premises": 453
+    },
+    "num_queries": 1380
+  },
+  "CompTS_Ensemble": {
+    "name": "CompTS_Ensemble",
+    "total_cost": 1.7526,
+    "avg_cost_per_query": 0.00127,
+    "total_violations": 0,
+    "violation_rate": 0.0,
+    "max_window_violation_rate": 0.0,
+    "avg_latency": 1180.0,
+    "platform_distribution": {
+      "On_Premises": 1380
+    },
+    "num_queries": 1380
+  },
+  "regret": {
+    "total_regret": 0.2789,
+    "avg_regret_per_step": 0.000202,
+    "regret_growth_rate": "sublinear"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "n_pairs": 100,
+  "bertscore_precision": 0.9125,
+  "bertscore_recall": 0.9117,
+  "bertscore_f1": 0.912,
+  "quality_preservation_rate": 1.0,
+  "quality_threshold": 0.8,
+  "method": "bert-score",
+  "per_tier_f1": {
+    "T1_Internal": 0.906,
+    "T0_Public": 0.9253,
+    "T2_Limited": 0.9078,
+    "T3_Restricted": 0.9087
+  },
+  "openai_avg_latency_ms": 1631.0,
+  "ollama_avg_latency_ms": 15211.7
+}

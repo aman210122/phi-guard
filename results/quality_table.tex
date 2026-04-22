@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Response quality comparison: on-premises Llama-3.1-8B vs.\ public GPT-4o-mini.}
+\label{tab:quality}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Tier} & \textbf{n} & \textbf{BERTScore F1} & \textbf{Preservation} & \textbf{Latency Ratio} \\
+\midrule
+T0_Public & 25 & 0.925 & 100% & --- \\
+T1_Internal & 25 & 0.906 & 100% & --- \\
+T2_Limited & 25 & 0.908 & 100% & --- \\
+T3_Restricted & 25 & 0.909 & 100% & --- \\
+\midrule
+Overall & 100 & 0.912 & 100% & 9.3$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

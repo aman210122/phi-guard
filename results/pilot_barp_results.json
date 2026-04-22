@@ -1,0 +1,78 @@
+{
+  "pilot": [
+    {
+      "name": "PILOT \u03b1=0.5",
+      "cost": 29.6471,
+      "violations": 79,
+      "viol_pct": 0.88,
+      "cloud_pct": 61.9
+    },
+    {
+      "name": "PILOT \u03b1=1.0",
+      "cost": 28.4268,
+      "violations": 83,
+      "viol_pct": 0.92,
+      "cloud_pct": 65.0
+    },
+    {
+      "name": "PILOT \u03b1=2.0",
+      "cost": 28.6185,
+      "violations": 83,
+      "viol_pct": 0.92,
+      "cloud_pct": 64.4
+    }
+  ],
+  "barp": [
+    {
+      "name": "BaRP w=0.3",
+      "cost": 28.9256,
+      "violations": 81,
+      "viol_pct": 0.9,
+      "cloud_pct": 64.7
+    },
+    {
+      "name": "BaRP w=0.5",
+      "cost": 28.9414,
+      "violations": 82,
+      "viol_pct": 0.91,
+      "cloud_pct": 64.6
+    },
+    {
+      "name": "BaRP w=0.7",
+      "cost": 28.9146,
+      "violations": 82,
+      "viol_pct": 0.91,
+      "cloud_pct": 64.7
+    }
+  ],
+  "static_no_tau": {
+    "name": "StaticILP \u03c4=None",
+    "cost": 28.3448,
+    "violations": 83,
+    "viol_pct": 0.92,
+    "cloud_pct": 65.2
+  },
+  "static_tau80": {
+    "name": "StaticILP \u03c4=0.8",
+    "cost": 28.8431,
+    "violations": 8,
+    "viol_pct": 0.09,
+    "cloud_pct": 63.3
+  },
+  "shift": {
+    "pilot": {
+      "name": "PILOT",
+      "p1_viol_pct": 0.5,
+      "p2_viol_pct": 1.33,
+      "max_window_pct": 8.0,
+      "total_viol_pct": 1.0
+    },
+    "barp": {
+      "name": "BaRP",
+      "p1_viol_pct": 0.6,
+      "p2_viol_pct": 1.03,
+      "max_window_pct": 5.0,
+      "total_viol_pct": 0.86
+    }
+  }
+}
